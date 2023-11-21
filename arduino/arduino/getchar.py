@@ -2,7 +2,7 @@ import os, time, sys, termios, atexit, tty
 from select import select
   
 # class for checking keyboard input
-class GetChar:
+class Getchar:
     def __init__(self):
         # Save the terminal settings
         self.fd = sys.stdin.fileno()
